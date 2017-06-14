@@ -1,0 +1,111 @@
+body{ background-color: rgb(188,211,229); }
+/*公用*/
+.comWidth{
+	width:1000px; 
+	margin:0px auto;
+}
+.left{ float: left; }
+.right{ float: right; }
+a:hover{ color: #f00; }
+.page{ width: 500px; margin: 10px auto; width: 50px; }
+.pagination{ width: 800px; font-size: 16px; }
+.pagination li{float: left; margin-right: 10px; border: 1px solid #ccc; padding: 5px;}
+/*头部*/
+.header{width: 870px; margin: 30px auto; padding-left: 80px; overflow: hidden; padding-right: 50px;}
+.header .info img{ width: 100px; height: 100px; margin-bottom: 10px; }
+.header .info a{ color: #fff; font-weight: bold; font-size: 28px; margin-bottom: 20px}
+.header .info a:hover{ text-decoration: underline;}
+.header .nav li{ list-style-type: none; float: left; }
+.header .nav{overflow: hidden;;}
+.header .nav li a{font-weight: bold; color: #000; font-size: 18px; margin-right: 10px; display: inline-block;; }
+.header .nav li a:hover{color: #f00;}
+/*content*/
+.content{ margin-top: 30px; margin-bottom: 30px; overflow: hidden;}
+.content .c_left{ width: 240px; margin-right: 10px; }
+.content .c_right{ width: 750px; background-color: #fff; padding-bottom: 30px;}
+/*个人资料*/
+.content .title{overflow: hidden; font-size: 14px; line-height: 30px; padding-left: 10px; padding-right: 10px;}
+.content .c_left .data .img{margin:10px 20px; border: 1px solid #ccc; height: 150px; width: 198px;}
+.content .c_left .data .img img{height: 150px; width: 198px;}
+.content .c_left .data .name{ text-align: center; line-height: 30px; font-size: 14px; font-weight: bold; color: #000; }
+.content .c_left .data .info{ margin-right: 20px; line-height: 30px; font-size: 14px; margin-left: 20px; }
+.content .c_left .data .info label{ font-size: 16px; font-weight: bold; }
+/*评论*/
+.content .c_left .comment,.data,.category{ margin-bottom: 10px;background-color: #fff;  padding-bottom: 15px;}
+.content .c_left .comment .item{ padding-left: 20px; border-bottom: 1px dotted #ccc; padding-right: 15px;  margin-bottom: 10px;}
+.content .c_left .comment .item .user,.c_content{ overflow: hidden; margin-bottom: 10px; }
+.content .c_left .comment .item .user{ font-size: 14px; }
+.content .c_left .comment .more{ overflow: hidden; padding-right: 15px; margin-top: 10px; }
+/*分类*/
+.content .c_left .category ul{padding-left: 20px;}
+.content .c_left .category ul li{ margin-bottom: 5px;  list-style-type:disc; }
+/*博文*/
+.content .c_right .item{ margin-top: 10px; margin-right: 20px; border-bottom: 1px dotted #ccc; margin-left: 20px; padding-bottom: 20px; }
+.content .c_right .item a{ color:  rgb(62,115,160); margin-right: 10px;}
+.content .c_right .item .title{ font-size: 22px; }
+.content .c_right .item p{ margin-left: 25px; }
+.content .c_right .item .lable,.cate{ font-size: 14px; color: rgb(62,115,160); }
+.content .c_right .item .article{ margin: 20px 10px 20px 25px; font-size: 14px; }
+.content .c_right .item .flooter{ margin-left: 10px;}
+.content .c_right .item .flooter .num{ margin-left: -10px; }
+.content .c_right a:hover{ text-decoration: underline; }
+/*修改个人资料*/
+.profile{ margin-top: 30px; margin-bottom: 30px; overflow: hidden; background-color: #fff;padding-top: 30px; padding-bottom: 30px;}
+.profile img{ margin-bottom: 20px; width: 150px; height: 150px; }
+.profile label{ font-size: 18px; font-weight: bold; margin-right: 20px; }
+.profile tr{ display: block; margin-bottom: 10px; }
+.profile input{ border: 1px solid #ccc; padding: 5px 20px; }
+.profile .label{ width: 100px; text-align: right; }
+.profile .comfirm{ padding-left: 70px; width: 150px; font-size: 16px; display: block;}
+/*博文目录*/
+.content .c_right .blog_item{ overflow: hidden; font-size: 14px; border-bottom: 1px dotted #ccc; margin: 10px 20px; padding:10px; }
+.content .c_right .blog_item .title{ color:#436eee; font-size: 16px;}
+.content .c_right .blog_item .title:hover{ text-decoration: underline; }
+.content .c_right .blog_item{}
+/*发博文*/
+.blog{ background-color: #fff; padding: 0px 20px; padding-bottom: 40px; }
+.blog .head{overflow: hidden; font-size: 18px; font-weight: bold;  line-height: 30px; margin-bottom: 30px;}
+.blog  label{ font-size: 16px;}
+.blog .title{ font-size: 14px; border: 1px solid #ccc; width: 500px; height: 20px; padding: 5px 10px;  }
+.blog .form{ padding-left: 145px; }
+.blog .cate{ border: 1px solid #ccc; padding: 3px; }
+.blog .content{ font-size: 14px; padding: 30px 20px; border: 1px solid #ccc; width: 700px; height: 300px; overflow-y: scroll; }
+.blog .label{ font-size: 14px; border: 1px solid #ccc; width: 300px; height: 20px; padding: 5px 10px; }
+.blog .div{ margin-top: -10px; text-align: center; width: 700px; }
+.blog .submit{ height: 30px; width: 200px; font-size: 18px; text-align: center; box-shadow: 2px 2px 0px #ccc; border: 1px solid #ccc;border-radius: 5px; }
+/*评论详情*/
+.comment_detail,.cate_detail{ background-color: #fff; padding:5px 30px; padding-bottom: 30px; }
+.comment_detail .title{font-size: 18px; font-weight: bold; line-height: 30px; }
+.comment_detail .c_item{ padding-top: 20px; overflow: hidden; font-size: 14px; border-bottom: 1px dotted #ccc; padding-bottom: 20px;}
+.comment_detail .c_item .face{ margin-right: 10px; width: 50px; height: 50px; }
+.comment_detail .c_item .item_r{ width: 880px; overflow: hidden; }
+.comment_detail .c_item .item_r .username{ margin-bottom: 10px; font-size: 18px; font-weight: bold; color: #8470ff; display: inline-block; margin-right: 10px; }
+.comment_detail .c_item .item_r .username:hover{ text-decoration: underline; }
+.comment_detail .c_item .delete:hover{color:  rgb(62,115,160);}
+.comment_detail .c_item .item_r .contents{ clear: both; padding-left: 10px; margin:10px;  }
+.comment_detail .c_item .item_r .which{ font-weight: bold;color: #4876ff; }
+.comment_detail .c_item .item_r .which:hover{ text-decoration: underline; }
+/*分类管理*/
+.cate_detail li{ font-size: 14px; padding: 10px 30px; border-bottom: 1px dotted #ccc; display: block;overflow: hidden;}
+.cate_detail li a:hover{color:  rgb(62,115,160); text-decoration: underline;}
+.cate_detail .title{font-size: 18px; font-weight: bold; line-height: 30px; padding: 5px 10px 30px;}
+.cate_detail .add{ padding: 10px 30px; }
+.cate_detail .add .cate{ border: 1px solid #ccc; padding: 5px 10px; }
+/*博文评论*/
+.comment_b .title{ background-color: #d1eeee; margin: 20px; font-size: 14px; }
+.comment_b .c_item{  padding-bottom: 15px; border-bottom: 1px dotted #ccc; overflow: hidden; margin:20px 30px}
+.comment_b .face{ margin-right: 10px; width: 50px; height: 50px;  }
+.comment_b .c_item .item_r{overflow: hidden; }
+.comment_b .c_item .item_r .username{ margin-bottom: 10px; font-size: 16px; font-weight: bold; color: #8470ff; display: inline-block; margin-right: 10px; }
+.comment_b .c_item .item_r .username:hover{ text-decoration: underline; }
+.comment_b .c_item .delete:hover{color:  rgb(62,115,160);}
+.comment_b .c_item .item_r .contents{ clear: both; padding-left: 10px; margin:10px;  }
+.comment_b .c_item .item_r .flooter{ width: 600px; }
+.comment_b .c_item .item_r .which{ font-weight: bold;color: #4876ff; }
+.comment_b .c_item .item_r .which:hover{ text-decoration: underline; }
+/*发评论*/
+.deliverComment .title{ background-color: #d1eeee; margin: 20px; font-size: 14px; }
+.deliverComment .content{ margin-left: 30px; }
+.deliverComment .comment_t{ padding: 10px 20px; font-size: 14px; border: 1px solid #ccc; margin-top: 10px; margin-bottom: 15px; width: 650px; height: 150px; overflow-y: scroll; }
+.deliverComment .comment_btn{ line-height: 20px; width: 60px; padding-top: 5px; padding-bottom: 5px; font-size: 14px;  }
+.deliverComment .comment_btn:hover{ cursor: pointer; }
